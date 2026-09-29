@@ -21,3 +21,23 @@ O desenvolvimento também envolveu a utilização de testes automatizados, integ
 ## Objetivo
 
 O Projeto foi desenvolvido como atividade acadêmica, com o objetivo de colocar em prática conceitos de desenvolvimento de software, integração com APIs, testes automatizados, controle de versão e integração contínua.
+
+## Testes
+
+O projeto possui testes automatizados utilizando Jest e Supertest para validar a rota `/perguntar`.
+
+Os testes verificam:
+
+- Retorno de erro ao enviar uma pergunta vazia;
+- Aceitação de uma pergunta válida;
+- Status das respostas da API.
+
+Atualmente, o projeto possui 2 testes automatizados, ambos aprovados.
+
+## Como executar
+
+1. Clone o repositório.
+2. Instale as dependências:
+
+```bash
+npm install
